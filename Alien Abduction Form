@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+   <head>
+      <title>Alien abductiin form</title>
+   </head>
+   <body>
+      <b><p>Share your story of alien abduction</p></b>
+     <hr>
+     <form method="post" action="myreport.php">
+       <fieldset>
+         <legend> Personal Info</legend>
+       First name:<br><input type="text" name="firstname"><br>
+       Last name:<br><input type="text" name="lastname"><br>
+         How many:<br><input type="text"
+ name="howmany"><br>
+       What is your email address:<br><input type="text" name="email"><br>
+       When it happenned:<br><input type="text" name="whenithappenned"><br>
+       howlong:<br><input type="text" name="howlong"><br>
+       Discribe them:<br><input type="text" name="alien_description"><br>
+       What did they do to you:<br><input type="text" name="whatdidtheydotoyou"><br>
+       Have you seen my dog:<br><input type="radio" name="fangspotted" value="Yes">Yes
+  <input type="radio" name="fangspotted" value="No">No<br>
+         <img src="downloadfile.jpg" alt="Italian Trulli" style="width:150px;height:100px;"><br>
+       Any thing else you want to add:<br><textarea  name="other"></textarea><br>
+       <input type="submit" value="Report Abduction" name="submit">
+</fieldset>
+       </form>
+
+   </body>
+</html>
